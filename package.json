@@ -1,6 +1,6 @@
 {
   "name": "freight-trust-x12-interchange",
-  "version": "0.9.1",
+  "version": "0.9.2",
   "description": "This is the default package.json generated for your project",
   "main": "index.js",
   "scripts": {
