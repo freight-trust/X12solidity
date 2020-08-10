@@ -38,6 +38,7 @@
   ],
   "author": "SEE LICENSE",
   "license": "MPL-2.0",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "bugs": {
     "url": "https://github.com/freight-trust/X12solidity/issues"
   }
