@@ -1,4 +1,6 @@
-# Interchange Standard Reference Implementation
+# X12 Interchange Standard
+
+>  i.e. an X12Interchange object through solidity, then to a raw X12 interchange and returnable as a **valid X12 stream.**
 
 This is an implementation of the `interchangeSet` function form [X12](https://x12.org) and the Interchange Group functions from the X12  Electronic Data Interchange Standard.
 
