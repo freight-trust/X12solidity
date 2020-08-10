@@ -1,0 +1,11 @@
+*.vscode
+.vscode/
+node_modules
+.pkcs
+*.pkcs
+*.tar.gz
+*.zip
+*.tar
+key
+Keys
+

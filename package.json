@@ -1,0 +1,21 @@
+{
+  "name": "freight-trust-x12-interchange",
+  "version": "0.9.1",
+  "description": "This is the default package.json generated for your project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SEE LICENSE",
+  "license": "MIT",
+  "dependencies": {
+    "@truffle/hdwallet-provider": "^1.0.39",
+    "eth-saddle": "^0.1.19",
+    "etherlime-lib": "^1.2.0",
+    "ethers": "^4.0.45",
+    "truffle": "^5.1.39"
+  },
+  "devDependencies": {
+    "jest": "^26.3.0"
+  }
+}
