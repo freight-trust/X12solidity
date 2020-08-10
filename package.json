@@ -1,21 +1,44 @@
 {
-  "name": "freight-trust-x12-interchange",
-  "version": "0.9.2",
-  "description": "This is the default package.json generated for your project",
+  "name": "@fr8/x12sol",
+  "version": "0.9.1",
+  "description": "Solidity ASC X12 Eleectronic Data Interchange Contracts",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "yarn run saddle test",
+    "compile": "yarn run saddle compile",
+    "run": "yarn run",
+    "rpc": "curl --max-time 1000 --request GET 'localhost:3000/nft/supportsInterface/?interfaceId={{interfaceId}}' --header 'Accept: application/json'",
+    "tokenuri": "curl --max-time 1000 --request GET 'localhost:3000/nft/tokenURI/?tokenId={{tokenId}}' --header 'Accept: application/json'"
   },
-  "author": "SEE LICENSE",
-  "license": "MIT",
+
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.0.39",
     "eth-saddle": "^0.1.19",
     "etherlime-lib": "^1.2.0",
     "ethers": "^4.0.45",
     "truffle": "^5.1.39"
+    
   },
-  "devDependencies": {
-    "jest": "^26.3.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/freight-trust/X12solidity.git"
+  },
+  "keywords": [
+    "BESU",
+    "ENTERPRISE",
+    "SUPPLY CHAIN",
+    "HYPERLEDGER",
+    "ETHEREUM",
+    "ERC",
+    "SMART CONTRACTS",
+    "SOLIDITY",
+    "EDI",
+    "EDIFACT",
+    "X12"
+  ],
+  "author": "SEE LICENSE",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/freight-trust/X12solidity/issues"
   }
 }
