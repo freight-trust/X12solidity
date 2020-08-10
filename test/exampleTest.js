@@ -29,7 +29,7 @@ describe("Example", () => {
 
   it("should be valid hash", async () => {
     let hash =
-      "0x5024924b629bbc6a32e3010ad738989f3fb2adf2b2c06f0cceeb17f6da6641b3";
+      "0x.....";
     assert.isHash(hash);
   });
 
